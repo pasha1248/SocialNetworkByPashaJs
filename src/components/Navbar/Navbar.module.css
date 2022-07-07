@@ -1,0 +1,38 @@
+.nav{
+    grid-area: n;
+    background-color: rgb(211 209 206 / 64%);    
+    display: inline;
+}
+
+.item {
+    background-color: rgb(211 209 206 / 64%);
+    padding-top: 30px;
+    color: black;
+    align-items: center;
+    font-size: 30px;
+}
+.list{ 
+    background-color: rgb(225 225 225 / 64%);
+    border: none;
+    margin-left: 20px;
+    text-decoration: none;
+
+}
+.item a{
+    color: black;
+}
+.item a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0.3s ease-in;
+}
+.item a.active{
+    color: rgb(222, 198, 16);
+}
+.friend{
+    text-decoration: none;
+    background-color: rgb(225 225 225 / 64%);
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 23px;
+
+}
